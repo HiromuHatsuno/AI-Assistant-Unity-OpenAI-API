@@ -5,7 +5,7 @@ using UnityEngine.Serialization;
 using UnityEngine.UI;
 
 // ChatGPTと通信を行うための基底クラス
-public abstract class ChatGPTBaseClient : MonoBehaviour
+public abstract class GPTBaseClient : MonoBehaviour
 {
     // APIエンドポイントURL
     private string apiEndPoint;
