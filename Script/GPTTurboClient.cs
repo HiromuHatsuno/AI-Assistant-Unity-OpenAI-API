@@ -1,11 +1,9 @@
-using UnityEngine;
 using Newtonsoft.Json;
 using System.Collections;
 using System.Collections.Generic;
-using Scenes;
 
 // GPTのTurboクライアントを表現するクラス
-public class GPTTurboClient : ChatGPTBaseClient
+public class GPTTurboClient : GPTBaseClient
 {
     // 会話の履歴を保持するリストです。
     private readonly List<ChatGPTMessage> _messageList = new();
@@ -83,7 +81,7 @@ public class GPTTurboClient : ChatGPTBaseClient
         [JsonObject]
         public class Choice
         {
-            [JsonPropety("message")] public ChatGPTMessage message;
+            public ChatGPTMessage message;
         }
     }
 }

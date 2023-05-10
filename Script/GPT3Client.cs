@@ -2,9 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using Newtonsoft.Json;
-using Scenes;
 
-public class GPT3Client : ChatGPTBaseClient
+public class GPT3Client : GPTBaseClient
 {
     // 会話の履歴を保持するリストです。
     private readonly List<string> conversationHistory = new();
