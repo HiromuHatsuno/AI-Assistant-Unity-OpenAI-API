@@ -30,7 +30,7 @@ public abstract class GPTBaseClient : MonoBehaviour
     // 実行ボタン
     [SerializeField] protected Button execButton;
 
-    private void Start() => SetModel();
+    private void Awake() => SetModel();
 
     // APIエンドポイントの初期化
     protected void InitializeEndPoint(string apiEndPoint) => this.apiEndPoint = apiEndPoint;
