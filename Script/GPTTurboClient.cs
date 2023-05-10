@@ -83,7 +83,7 @@ public class GPTTurboClient : ChatGPTBaseClient
         [JsonObject]
         public class Choice
         {
-            [JsonPropety("message")] public ChatGPTMessage message;
+            public ChatGPTMessage message;
         }
     }
 }
