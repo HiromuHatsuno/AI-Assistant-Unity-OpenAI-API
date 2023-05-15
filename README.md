@@ -1,5 +1,5 @@
-# AI-Assistant-Unity-Powered-by-GPT-3.5-GPT-3
-UnityでGPT APIを用いて、AIアシスタントを実装するためのクラス
+GPT-Client-Sample-For-Unity
+UnityでGPT APIを用いたサンプルクラスです。
 
 ## 各種クラスの概要説明
 * **GPTTurboClient.cs<br>**
