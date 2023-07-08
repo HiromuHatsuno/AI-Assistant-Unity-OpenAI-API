@@ -13,3 +13,7 @@ GPT-3のモデルクラスにfine-tuningしたモデルを利用可能
 * **GPTBaseClient.cs<br>**
 GPTTurboClient.csとGPT3Client.csのベースクラス<br>
 それぞれのクラスで共通化できる箇所を共通化した
+
+## 注意点
+Newtonsoft Json Packageを使用しているので、事前に導入を行なってください。
+「com.unity.nuget.newtonsoft-json」をPackageManagerから追加することで、「Newtonsoft.Json」を使用することができます。
